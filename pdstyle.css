@@ -1,0 +1,37 @@
+.pojemnik{
+    display: flex;
+    height: 50%;
+    width: 666px;
+}
+.pojemnik> div:nth-child(1){
+    flex-direction: column;
+    display: flex;
+    flex: 100px;
+}
+.lewy> div:nth-child(1){
+    flex-grow: 1;
+    flex: 100px;
+    border: 1px solid black;
+}
+.lewy> div:nth-child(2){
+    flex-grow: 1;
+    flex: 100px;
+    border: 1px solid black;
+}
+.lewy> div:nth-child(3){
+    flex-grow: 1;
+    flex: 100px;
+    border: 1px solid black;
+}
+
+.srodek{
+    flex-grow: 1;
+    flex: 150%;
+    border: 1px solid black;
+}
+
+.prawy{
+    flex-grow: 1;
+    flex: 100%;
+    border: 1px solid black;
+}
