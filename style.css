@@ -1,26 +1,7 @@
-#container{
-    width: 600px;
-    background-color: black;
-    margin: 0 auto;
+.container{
+    display: grid | inline-grid;
+    background-color:lightgrey;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-#container > div{
-    height: 100px;
-    width: 100px;
-    background-color:red;
-    transition: linear 2s;
-}
-#container > div:nth-child(2){
-    background-color:aquamarine;
-    height: 75px;
-}
-#container > div:nth-child(3){
-    background-color:goldenrod;
-    height: 15px;
-}
-#container > div:hover {
-    background-color:royalblue;
-    flex-grow: 1.5;
+    grid-template-columns: 40px;
+    grid-template-rows: 40px;
 }
