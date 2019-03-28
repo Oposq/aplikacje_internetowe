@@ -9,7 +9,7 @@ html, body{
     grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
     width: 50%;
     height: 80%;
-    background-color: lightslategray;
+    background-color: blue;
     margin: 20px auto 0;
     grid-gap: 3px;
     padding:3px;
@@ -24,7 +24,7 @@ html, body{
     -moz-user-select: none;
 }
 #container > div:hover{
-    background-color:rosybrown;
+    background-color:red;
 }
 
 #container > div:nth-child(1){
